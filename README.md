@@ -1,1 +1,1 @@
-# proiect-1-Adina
+# Un mic proiect demonstrativ si simplu 
