@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portofel>
+    <titlu>Portofel Personal Interactiv</titlu>
+
+    <navigare>
+        <meniu>
+            <optiune>Sold</optiune>
+            <optiune>Adaugă bani</optiune>
+            <optiune>Cheltuie bani</optiune>
+        </meniu>
+    </navigare>
+
+    <continut_principal>
+        <header>💰 Portofelul Meu</header>
+        <imagine src="images (1).jpg" latime="300">Portofel</imagine>
+        <paragraf>Aici vei vedea informațiile despre portofelul tău.</paragraf>
+    </continut_principal>
+
+    <actiuni>
+        <input tip="number" id="suma" placeholder="Introdu suma"/>
+        <buton id="executa">Execută</buton>
+    </actiuni>
+
+    <footer>
+        <text>&#169; 2025 Portofel Interactiv. Toate drepturile rezervate.</text>
+    </footer>
+</portofel>
