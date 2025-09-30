@@ -2,13 +2,15 @@
 <html lang="ro">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tudorica Andrei">
+    <meta name="description" content="Portofel personal interactiv pentru gestionarea finanțelor.">
+    <meta name="keywords" content="portofel, finanțe, gestionare bani, adaugare bani, cheltuieli">
     <title>Portofel Personal Interactiv</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-
+    <!-- Bara de navigare -->
     <nav>
         <ul>
             <li><a href="#" data-section="sold">Sold</a></li>
@@ -17,20 +19,84 @@
         </ul>
     </nav>
 
-    
+    <!-- Conținut principal -->
     <main>
         <h1>💰 Portofelul Meu</h1>
         <img src="images (1).jpg" alt="Portofel" width="300">
         <p id="content">Aici vei vedea informațiile despre portofelul tău.</p>
 
-       
+        <!-- Input pentru acțiuni -->
         <div id="actions" style="margin-top:20px;">
             <input type="number" id="suma" placeholder="Introdu suma">
             <button id="executa">Execută</button>
         </div>
     </main>
 
+    <!-- Secțiune blocuri de text și exemple HTML -->
+    <section>
+        <h2>Exemple blocuri de text HTML și taguri vizibile</h2>
 
+        <!-- Titluri -->
+        <h1>Acesta este un titlu H1</h1>
+        <h2>Acesta este un titlu H2</h2>
+        <h3>Acesta este un titlu H3</h3>
+
+        <!-- Paragraf -->
+        <p>Aceasta este un paragraf simplu. Poți scrie aici informații despre portofel sau despre tine.</p>
+
+        <!-- Grupare simplă -->
+        <div>
+            <p>Acest paragraf este într-un div, ceea ce înseamnă că poate fi grupat cu alte elemente.</p>
+            <p>Alt paragraf în același div pentru a arăta gruparea.</p>
+        </div>
+
+        <!-- Text preformatat -->
+        <pre>
+Acesta este un text preformatat.
+Spațiile și liniile sunt păstrate exact cum le scrii.
+Poți folosi pentru cod sau alte exemple.
+        </pre>
+
+        <!-- Evidențiere -->
+        <p><b>Text îngroșat</b></p>
+        <p><i>Text înclinat</i></p>
+        <p><u>Text subliniat</u></p>
+        <p><mark>Text evidențiat cu galben</mark></p>
+
+        <!-- Semantic -->
+        <p><strong>Text important (semantic)</strong></p>
+        <p><em>Text accentuat (semantic)</em></p>
+
+        <!-- Dimensiune / indice -->
+        <p>Text <small>mai mic</small></p>
+        <p>X<sup>2</sup> (exponent)</p>
+        <p>H<sub>2</sub>O (indice)</p>
+
+        <!-- Corecturi -->
+        <p>Preț vechi: <del>100 lei</del> Preț nou: <ins>80 lei</ins></p>
+
+        <!-- Citate -->
+        <p>Citat scurt: <q>Economisește banii cu grijă!</q></p>
+        <blockquote>
+            Acesta este un citat mai lung despre finanțe, scris pe mai multe linii,
+            pentru a demonstra utilizarea elementului <code>&lt;blockquote&gt;</code>.
+        </blockquote>
+
+        <!-- Cod -->
+        <p>Cod inline: <code>let sold = 100;</code></p>
+        <pre>
+function adaugaBani(suma) {
+    sold += suma;
+    console.log("Soldul actual este " + sold);
+}
+        </pre>
+
+        <!-- Tastatură și output -->
+        <p>Apasă <kbd>Ctrl</kbd> + <kbd>S</kbd> pentru a salva.</p>
+        <p>Exemplu de output: <samp>Sold actualizat cu succes!</samp></p>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2025 Portofel Interactiv. Toate drepturile rezervate.</p>
     </footer>
